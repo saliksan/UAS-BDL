@@ -30,7 +30,7 @@
 
    -VIEW SOURCE CODE-
 
-   ```mariaDB
+   ```sql
    -- Buat tabel tb_cust
 CREATE TABLE tb_cust (
   id_cust INT PRIMARY KEY AUTO_INCREMENT,
