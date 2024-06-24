@@ -1,14 +1,14 @@
 # UAS-BDL / AFISAL AINUL IKSAN (2201010065)
-1. ERD (Entity Relationship Diagram)
+## 1. ERD (Entity Relationship Diagram)
    
    ![ERD UAS](https://github.com/saliksan/UAS-BDL/assets/168659202/c8cc0551-b8f1-42bc-a100-5bcc6ec57e36)
 
-2. Deskripsi Project
+## 2. Deskripsi Project
   - 
 
-3. Penjelasan skema basis data, relasi, trigger, serta view setiap potongan code dari source code (SQL file)
+## 3. Penjelasan skema basis data, relasi, trigger, serta view setiap potongan code dari source code (SQL file)
 
-   -SKEMA BASIS DATA-
+### -SKEMA BASIS DATA-
 
    Dalam ERD yang sudah saya buat terdapat 4 tabel.
   - Tabel tb_customer menyimpan informasi pelanggan, seperti nama, alamat, dan nomor telepon.
@@ -17,7 +17,7 @@
   - Tabel tb_admin menyimpan informasi admin, seperti username dan password.
    Dan relasi antar tabel didefinisikan menggunakan kolom kunci utama dan kunci asing.
 
-   -RELASI-
+### -RELASI-
 
    Relasi satu ke banyak (1:N) antara tb_customer dan tb_transaksi: Satu pelanggan dapat memiliki banyak transaksi. Setiap transaksi harus memiliki satu pelanggan.
     
@@ -25,10 +25,10 @@
     
    Relasi satu ke satu (1:1) antara tb_admin dan tb_transaksi: Setiap transaksi diawasi oleh satu admin. Setiap admin dapat mengawasi banyak transaksi.
 
-   -TRIGGER-
+###  -TRIGGER-
 
 
-   -VIEW SOURCE CODE-
+###   -VIEW SOURCE CODE-
 
    ```sql
    -- Buat tabel tb_cust
