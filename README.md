@@ -30,5 +30,41 @@
 
    -VIEW SOURCE CODE-
 
+   ```mariaDB
+   -- Buat tabel tb_cust
+CREATE TABLE tb_cust (
+  id_cust INT PRIMARY KEY AUTO_INCREMENT,
+  nama_cust VARCHAR(255) NOT NULL,
+  alamat_cust TEXT NOT NULL,
+  tlp_cust VARCHAR(255) NOT NULL
+);
+
+-- Buat tabel tb_jasa
+CREATE TABLE tb_jasa (
+  id_jasa INT PRIMARY KEY AUTO_INCREMENT,
+  nama_jasa VARCHAR(255) NOT NULL,
+  deskripsi_jasa TEXT NOT NULL,
+  harga_jasa INT NOT NULL
+);
+
+-- Buat tabel tb_transaksi
+CREATE TABLE tb_transaksi (
+  id_transaksi INT PRIMARY KEY AUTO_INCREMENT,
+  id_cust INT NOT NULL,
+  id_jasa INT NOT NULL,
+  tgl_transaksi DATE NOT NULL,
+  total_bayar INT NOT NULL,
+  FOREIGN KEY (id_cust) REFERENCES tb_cust(id_cust),
+  FOREIGN KEY (id_jasa) REFERENCES tb_jasa(id_jasa)
+);
+
+-- Buat tabel tb_admin
+CREATE TABLE tb_admin (
+  id_admin INT PRIMARY KEY AUTO_INCREMENT,
+  username_admin VARCHAR(255) NOT NULL UNIQUE,
+  password_admin VARCHAR(255) NOT NULL
+);
+
+   ```
    
    
