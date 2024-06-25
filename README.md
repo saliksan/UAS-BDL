@@ -34,6 +34,12 @@ Membuat keputusan yang lebih baik: Basis data dapat digunakan untuk menghasilkan
   - Tabel tb_admin menyimpan informasi admin, seperti username dan password.
    Dan relasi antar tabel didefinisikan menggunakan kolom kunci utama dan kunci asing.
 
+#### Membuat Database terlebih dahulu
+```sql
+CREATE DATABASE db_jasa_sepatu;
+
+```
+
 #### Query Pembuatan tabel customer
 ```sql
 CREATE TABLE tb_customer (
