@@ -1,7 +1,8 @@
 # UAS-BDL / AFISAL AINUL IKSAN (2201010065)
 ## 1. ERD (Entity Relationship Diagram)
    
-   ![ERD UAS](https://github.com/saliksan/UAS-BDL/assets/168659202/c8cc0551-b8f1-42bc-a100-5bcc6ec57e36)
+   ![ERD UAS (1)](https://github.com/saliksan/UAS-BDL/assets/168659202/616bea6f-e8d0-4377-ba8c-715c50009a58)
+
 
 ## 2. Deskripsi Project
 ### Tujuan
