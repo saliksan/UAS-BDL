@@ -4,7 +4,23 @@
    ![ERD UAS](https://github.com/saliksan/UAS-BDL/assets/168659202/c8cc0551-b8f1-42bc-a100-5bcc6ec57e36)
 
 ## 2. Deskripsi Project
-  - 
+### Tujuan
+Tujuan proyek ini adalah untuk merancang dan membangun basis data yang dapat digunakan untuk mengelola transaksi dan informasi pelanggan dalam bisnis jasa cuci sepatu. Basis data ini harus dapat menyimpan informasi tentang pelanggan, sepatu, layanan yang diminta, dan harga. Basis data ini juga harus dapat menghasilkan laporan dan statistik tentang bisnis.
+
+### Desain Basis Data
+Basis data dapat dirancang menggunakan model hubungan entitas (ER). Model ER akan terdiri dari entitas berikut:
+
+Customer: Entitas ini akan menyimpan informasi tentang pelanggan, seperti nama, alamat, nomor telepon.
+Admin: Entitas ini akan menyimpan informasi tentang username dan password.
+Jasa: Entitas ini akan menyimpan informasi tentang layanan yang ditawarkan, seperti nama jasa, deskripsi jasa, dan harga jasa.
+Transaksi: Entitas ini akan menyimpan informasi tentang transaksi, seperti tanggal transaksi, customer yang terlibat, jasa yang diminta, dan total biaya.
+
+### Manfaat
+Memiliki basis data untuk bisnis jasa cuci sepatu dapat memberikan beberapa manfaat, seperti:
+
+Meningkatkan efisiensi: Basis data dapat membantu mengotomatisasi tugas-tugas seperti melacak transaksi, menghasilkan laporan, dan mengelola informasi pelanggan.
+Meningkatkan layanan pelanggan: Basis data dapat digunakan untuk melacak riwayat pesanan pelanggan dan preferensi mereka, yang dapat membantu memberikan layanan yang lebih personal.
+Membuat keputusan yang lebih baik: Basis data dapat digunakan untuk menghasilkan laporan dan statistik yang dapat membantu pemilik bisnis membuat keputusan yang lebih baik tentang operasi mereka.
 
 ## 3. Penjelasan skema basis data, relasi, trigger, serta view setiap potongan code dari source code (SQL file)
 
